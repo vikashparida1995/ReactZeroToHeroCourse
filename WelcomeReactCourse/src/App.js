@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Message from "./components/Message";
+
 
 function App() {
   const [advice , setAdvice] = useState("")
@@ -26,10 +28,6 @@ function App() {
 
 
 
-function Message(pops){
-  return (
-   <p> you have read <strong> {pops.count} </strong> pieces of advice</p>
-  )
-}
+
 
 export default App;

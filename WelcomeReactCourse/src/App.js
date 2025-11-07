@@ -17,6 +17,7 @@ function App() {
   useEffect(function(){
     getAdvice()
   },[])
+  
   return (
      <div className="ui container">
      <h2>{advice}</h2>
@@ -25,9 +26,6 @@ function App() {
     </div>
   );
 }
-
-
-
 
 
 export default App;
